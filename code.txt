@@ -1,0 +1,10 @@
+Fibonacci code
+def fibonacci(n):
+    a=0
+    b=1
+    print(a) #prinint inital zero here
+    #iterating rest all in a for loop
+    for i in range(n-1):
+        print(b)
+        a,b= b,a+b
+fibonacci(15)#can pass any number
